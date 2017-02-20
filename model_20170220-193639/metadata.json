@@ -1,0 +1,10 @@
+{
+    "trained_at": "20170220-193639", 
+    "intent_classifier": "./model_20170220-193639\\intent_classifier.pkl", 
+    "training_data": "./model_20170220-193639\\training_data.json", 
+    "language_name": "en", 
+    "entity_extractor": "./model_20170220-193639\\ner", 
+    "rasa_nlu_version": "0.6b0", 
+    "feature_extractor": null, 
+    "backend": "spacy_sklearn"
+}

@@ -1,0 +1,14 @@
+Intents:
+
+1. greet
+2. affirm
+3. query
+4. goodbye
+
+Run server:
+
+python -m rasa_nlu.server -c config_spacy.json --server_model_dir=./model_20170220-193639
+
+Test server:
+
+curl -XPOST localhost:5000/parse -d '{"q":"Hi"}' | python -mjson.tool

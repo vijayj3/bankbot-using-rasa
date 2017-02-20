@@ -1,0 +1,428 @@
+{
+  "rasa_nlu_data": {
+    "entity_examples": [
+      {
+        "text": "hi", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "howdy", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hey there", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hello there", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "what's up", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "how's it going", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "indeed", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "that's right", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "ok", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "great", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "awesome", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "that's correct", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "yeah", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "yep", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "yes", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "yup", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "start", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "bye", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "goodbye", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "good bye", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "end", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "stop", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "I have a query", 
+        "intent": "general_query", 
+        "entities": []
+      }, 
+      {
+        "text": "I have a question", 
+        "intent": "general_query", 
+        "entities": []
+      }, 
+      {
+        "text": "I want to know something", 
+        "intent": "general_query", 
+        "entities": []
+      }, 
+      {
+        "text": "tell me something", 
+        "intent": "general_query", 
+        "entities": []
+      }, 
+      {
+        "text": "Please tell me", 
+        "intent": "general_query", 
+        "entities": []
+      }, 
+      {
+        "text": "I want to know my account details", 
+        "intent": "account_query", 
+        "entities": []
+      }, 
+      {
+        "text": "I want to know my account balance", 
+        "intent": "account_query", 
+        "entities": []
+      }, 
+      {
+        "text": "Please tell me my outstanding balance", 
+        "intent": "account_query", 
+        "entities": []
+      }, 
+      {
+        "text": "give me info about my savings account", 
+        "intent": "account_query", 
+        "entities": [
+          {
+            "start": 22, 
+            "end": 29, 
+            "value": "savings", 
+            "entity": "account_type"
+          }
+        ]
+      }, 
+      {
+        "text": "i want to know about my loan account", 
+        "intent": "account_query", 
+        "entities": [
+          {
+            "start": 24, 
+            "end": 28, 
+            "value": "loan", 
+            "entity": "account_type"
+          }
+        ]
+      }, 
+      {
+        "text": "what is my credit limit", 
+        "intent": "account_query", 
+        "entities": [
+          {
+            "start": 11, 
+            "end": 17, 
+            "value": "credit", 
+            "entity": "account_type"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the balance in my savings account", 
+        "intent": "account_query", 
+        "entities": [
+          {
+            "start": 26, 
+            "end": 34, 
+            "value": "savings ", 
+            "entity": "account_type"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the outstanding balance of my loan account", 
+        "intent": "account_query", 
+        "entities": [
+          {
+            "start": 38, 
+            "end": 42, 
+            "value": "loan", 
+            "entity": "account_type"
+          }
+        ]
+      }
+    ], 
+    "intent_examples": [
+      {
+        "text": "hi", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "howdy", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hey there", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hello there", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "what's up", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "how's it going", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "indeed", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "that's right", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "ok", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "great", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "awesome", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "that's correct", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "yeah", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "yep", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "yes", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "yup", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "start", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "bye", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "goodbye", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "good bye", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "end", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "stop", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "I have a query", 
+        "intent": "general_query", 
+        "entities": []
+      }, 
+      {
+        "text": "I have a question", 
+        "intent": "general_query", 
+        "entities": []
+      }, 
+      {
+        "text": "I want to know something", 
+        "intent": "general_query", 
+        "entities": []
+      }, 
+      {
+        "text": "tell me something", 
+        "intent": "general_query", 
+        "entities": []
+      }, 
+      {
+        "text": "Please tell me", 
+        "intent": "general_query", 
+        "entities": []
+      }, 
+      {
+        "text": "I want to know my account details", 
+        "intent": "account_query", 
+        "entities": []
+      }, 
+      {
+        "text": "I want to know my account balance", 
+        "intent": "account_query", 
+        "entities": []
+      }, 
+      {
+        "text": "Please tell me my outstanding balance", 
+        "intent": "account_query", 
+        "entities": []
+      }, 
+      {
+        "text": "give me info about my savings account", 
+        "intent": "account_query", 
+        "entities": [
+          {
+            "start": 22, 
+            "end": 29, 
+            "value": "savings", 
+            "entity": "account_type"
+          }
+        ]
+      }, 
+      {
+        "text": "i want to know about my loan account", 
+        "intent": "account_query", 
+        "entities": [
+          {
+            "start": 24, 
+            "end": 28, 
+            "value": "loan", 
+            "entity": "account_type"
+          }
+        ]
+      }, 
+      {
+        "text": "what is my credit limit", 
+        "intent": "account_query", 
+        "entities": [
+          {
+            "start": 11, 
+            "end": 17, 
+            "value": "credit", 
+            "entity": "account_type"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the balance in my savings account", 
+        "intent": "account_query", 
+        "entities": [
+          {
+            "start": 26, 
+            "end": 34, 
+            "value": "savings ", 
+            "entity": "account_type"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the outstanding balance of my loan account", 
+        "intent": "account_query", 
+        "entities": [
+          {
+            "start": 38, 
+            "end": 42, 
+            "value": "loan", 
+            "entity": "account_type"
+          }
+        ]
+      }
+    ]
+  }
+}
